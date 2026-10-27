@@ -1,0 +1,32 @@
+{
+  "name": "dpdp-raf",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.17.0",
+  "engines": {
+    "node": ">=22.22.0",
+    "npm": ">=11.0.0"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:network": "node scripts/dev.mjs --network",
+    "dev:client": "npm run dev --workspace @dpdp-raf/client",
+    "build": "npm run build --workspaces --if-present",
+    "dev:server": "npm run dev --workspace @dpdp-raf/server",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "eslint .",
+    "lint:fast": "oxlint"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "oxlint": "^1.89.0"
+  }
+}

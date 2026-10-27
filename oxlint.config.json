@@ -1,0 +1,11 @@
+{
+  "ignorePatterns": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/coverage/**"
+  ],
+  "categories": {
+    "correctness": "warn"
+  }
+}
