@@ -34,6 +34,7 @@ launcher is not intended for public internet hosting.
 - [Database bootstrap](docs/database-bootstrap.sql) — target SQL Server database and schema script.
 - [Database inspection](docs/database-inspection.sql) — read-only schema and table-data inspection script.
 - [Project report](docs/project-report.md) — technology stack, application architecture, database model, and project details.
+- [Git setup report](docs/git-setup-report.md) — initial Git setup, private repository push issue, root cause, and resolution.
 - [Project guide](docs/project-guide.md) — repository structure, packages, scripts, and configuration.
 
 Each workspace has an ignored `.env` for local configuration and a committed
